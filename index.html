@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>Tetris Game JS</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="control ">
+            <p>Press key "space" to start</p>
+            <p>Right arrow: <i class="arrow right"></i></p>
+            <p>Left arrow: <i class="arrow left"></i></p>
+            <p>Up arrow: <i class="arrow up"></i></p>
+            <p>Down arrow: <i class="arrow down"></i></p>
+        </div>
+        <div class="game">
+            <h1 class="game__name">Tetris Game</h1>
+            <div class="game__score">
+                Score :
+                <div id="score"> 0</div>
+            </div>
+            <canvas id="tetris" width="400" height="600"></canvas>
+        </div>
+    </div>
+
+
+    <script src="./asset/js/tetrominoes.js"></script>
+    <script src="./asset/js/teris.js"></script>
+</body>
+
+</html>
